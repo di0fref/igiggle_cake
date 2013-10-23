@@ -12,7 +12,57 @@
     <file path="/AppModel.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382546764695" ignored="false" />
     <file path="/inettuts.js" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382556833658" ignored="false" />
     <file path="$PROJECT_DIR$/app/tmp/logs/error.log" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382559016277" ignored="false" />
-    <file path="/index.ctp" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382565516476" ignored="false" />
+    <file path="/index.ctp" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382571535204" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/test_app/Controller/PagesController.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/test_app/Controller/TestConfigsController.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/test_app/Controller/TestsAppsController.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/Case/Model/Datasource/Database/SqlserverTest.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/bake_compare/Controller/NoHelpersOrComponents.ctp" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/Case/Model/CakeSchemaTest.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/Case/Model/AclNodeTest.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Network/CakeRequest.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/Case/Controller/Component/PaginatorComponentTest.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/test_app/Controller/TestAppsErrorController.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/Case/Controller/Component/AuthComponentTest.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/test_app/Model/Post.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/Case/Controller/ControllerTest.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/test_app/Plugin/TestPlugin/Controller/TestsController.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/Case/Console/Command/Task/ViewTaskTest.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Model/AclNode.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/Case/Model/Datasource/Database/PostgresTest.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/test_app/Model/PersisterOne.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/Case/Controller/Component/Acl/DbAclTest.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/test_app/Model/Comment.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Core/CakePlugin.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/Case/Console/Command/Task/TestTaskTest.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Core/Object.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/Case/TestSuite/ControllerTestCaseTest.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/Case/Model/Behavior/AclBehaviorTest.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/Case/TestSuite/CakeTestFixtureTest.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/Case/View/Helper/FormHelperTest.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/Case/Utility/ClassRegistryTest.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/Case/Model/Datasource/Session/DatabaseSessionTest.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/Case/Core/ObjectTest.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/Case/Error/ExceptionRendererTest.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Controller/CakeErrorController.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/Case/Model/models.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/Case/Console/Command/Task/ControllerTaskTest.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/test_app/Plugin/TestPlugin/Model/TestPluginPost.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/TestSuite/Fixture/CakeTestModel.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/test_app/Plugin/TestPlugin/Model/TestPluginAuthors.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Routing/Router.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/test_app/Model/PersisterTwo.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Model/I18nModel.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Model/AcoAction.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Model/Permission.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Model/Aro.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/test_app/Plugin/TestPlugin/Model/TestPluginAuthUser.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500853" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/Case/Utility/SanitizeTest.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500854" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/Case/Utility/XmlTest.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500854" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Model/Aco.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500854" ignored="false" />
+    <file path="$PROJECT_DIR$/lib/Cake/Test/Case/View/HelperTest.php" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568500854" ignored="false" />
+    <file path="/home.ctp" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382568730510" ignored="false" />
+    <file path="/a.dummy" changelist="c0b583e7-b08e-4096-b035-a50ddd3e0a1b" time="1382571088201" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,78 +81,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WidgetsController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Controller/WidgetsController.php">
+      <file leaf-file-name="index.ctp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/View/iGiggles/index.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="53" selection-start="1348" selection-end="1355" vertical-scroll-proportion="-6.0">
-              <folding />
+            <state line="22" column="12" selection-start="812" selection-end="812" vertical-scroll-proportion="0.591133">
+              <folding>
+                <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+                <marker date="1382571560000" expanded="true" signature="920:933" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="iGiggle.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/webroot/js/iGiggle.js">
+      <file leaf-file-name="authake.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Plugin/authake/View/Helper/authake.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="40" selection-start="1159" selection-end="1159" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Widget.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Model/Widget.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="1" selection-start="96" selection-end="96" vertical-scroll-proportion="-4.6666665">
+            <state line="31" column="45" selection-start="993" selection-end="993" vertical-scroll-proportion="-2.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.ctp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/View/iGiggles/index.ctp">
+        <entry file="file://$PROJECT_DIR$/app/Plugin/authake/View/Groups/index.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="-0.6666667">
-              <folding>
-                <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Config/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="76" selection-start="1178" selection-end="1178" vertical-scroll-proportion="0.21989529">
+            <state line="2" column="2" selection-start="85" selection-end="85" vertical-scroll-proportion="-1.3333334">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".htaccess" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/webroot/.htaccess">
+      <file leaf-file-name="AuthakeHelper.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Plugin/authake/View/Helper/AuthakeHelper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="36" column="39" selection-start="1151" selection-end="1162" vertical-scroll-proportion="-8.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PagesController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Controller/PagesController.php">
+      <file leaf-file-name="index.ctp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Plugin/authake/View/User/index.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="32.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Controller/AppController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="10" selection-start="1350" selection-end="1350" vertical-scroll-proportion="-12.222222">
+            <state line="12" column="56" selection-start="361" selection-end="361" vertical-scroll-proportion="-8.0">
               <folding />
             </state>
           </provider>
@@ -118,11 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/Lib/Http/AjaxResponse.php" />
-        <option value="$PROJECT_DIR$/app/View/Widgets/edit_widget_form.ctp" />
-        <option value="$PROJECT_DIR$/app/webroot/js/inettuts.js" />
-        <option value="$PROJECT_DIR$/app/View/Users/add.ctp" />
-        <option value="$PROJECT_DIR$/app/Controller/UsersController.php" />
         <option value="$PROJECT_DIR$/app/Model/User.php" />
         <option value="$PROJECT_DIR$/app/Config/core.php" />
         <option value="$PROJECT_DIR$/app/Config/bootstrap.php" />
@@ -131,9 +150,14 @@
         <option value="$PROJECT_DIR$/app/Model/Widget.php" />
         <option value="$PROJECT_DIR$/app/webroot/js/iGiggle.js" />
         <option value="$PROJECT_DIR$/app/Controller/WidgetsController.php" />
-        <option value="$PROJECT_DIR$/app/View/iGiggles/index.ctp" />
-        <option value="$PROJECT_DIR$/app/Controller/AppController.php" />
+        <option value="$PROJECT_DIR$/app/View/Pages/home.ctp" />
         <option value="$PROJECT_DIR$/app/Config/routes.php" />
+        <option value="$PROJECT_DIR$/app/View/Layouts/default.ctp" />
+        <option value="$PROJECT_DIR$/app/Controller/AppController.php" />
+        <option value="$PROJECT_DIR$/app/Plugin/authake/Controller/Component/AuthakeComponent.php" />
+        <option value="$PROJECT_DIR$/app/Plugin/authake/View/Helper/authake.php" />
+        <option value="$PROJECT_DIR$/app/Plugin/authake/View/Groups/index.ctp" />
+        <option value="$PROJECT_DIR$/app/View/iGiggles/index.ctp" />
       </list>
     </option>
   </component>
@@ -199,6 +223,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igiggle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -218,6 +256,352 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webroot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igiggle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webroot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igiggle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igiggle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igiggle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igiggle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iGiggles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igiggle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igiggle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="authake" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igiggle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="authake" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igiggle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="authake" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igiggle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="authake" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igiggle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="authake" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igiggle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="authake" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igiggle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Plugin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="authake" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igiggle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="igiggle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -265,9 +649,10 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.564759" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959083" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29214403" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.115384616" sideWeight="0.43524095" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -276,7 +661,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -345,120 +729,123 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Plugin/authake/Controller/UsersController.php">
+    <entry file="file://$PROJECT_DIR$/app/Plugin/authake/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="107.92593">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Plugin/authake/View/Layouts/authake.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Plugin/authake/Model/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="6" selection-start="801" selection-end="801" vertical-scroll-proportion="62.77778">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Plugin/authake/Model/AuthakeAppModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.7905759">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Plugin/authake/Controller/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="38" selection-start="1341" selection-end="1350" vertical-scroll-proportion="0.7225131">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Model/Widget.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="1" selection-start="96" selection-end="96" vertical-scroll-proportion="-4.6666665">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/webroot/js/iGiggle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="40" selection-start="1159" selection-end="1159" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/iGiggles/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="-0.6666667">
-          <folding>
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/WidgetsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="53" selection-start="1348" selection-end="1355" vertical-scroll-proportion="-6.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Config/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="28" selection-start="1169" selection-end="1169" vertical-scroll-proportion="-3.3333333">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/PagesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="32.0">
+        <state line="72" column="21" selection-start="2539" selection-end="2539" vertical-scroll-proportion="0.6533333">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/AppController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="10" selection-start="1350" selection-end="1350" vertical-scroll-proportion="-12.222222">
+        <state line="41" column="8" selection-start="1348" selection-end="1348" vertical-scroll-proportion="0.67980295">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/webroot/.htaccess">
+    <entry file="file://$PROJECT_DIR$/app/Plugin/authake/Config/authake_config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.38916257">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/.htaccess">
+    <entry file="file://$PROJECT_DIR$/app/Plugin/authake/Controller/AuthakeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="5.4444447">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
+    <entry file="file://$PROJECT_DIR$/app/Plugin/authake/Model/AuthakeAppModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.1099477">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Config/routes.php">
+    <entry file="file://$PROJECT_DIR$/app/Plugin/authake/Controller/Component/FilterComponent.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="76" selection-start="1178" selection-end="1178" vertical-scroll-proportion="0.21989529">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.3874346">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Plugin/authake/Controller/AuthakeAppController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.43003413">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Plugin/authake/View/Layouts/authake.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.5402684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Plugin/authake/Controller/Component/AuthakeComponent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="216" column="0" selection-start="6928" selection-end="7007" vertical-scroll-proportion="1.2080537">
+          <folding>
+            <element signature="e#7#729#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Plugin/authake/View/Helper/authake.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="45" selection-start="993" selection-end="993" vertical-scroll-proportion="-2.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Plugin/authake/Model/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.4395974">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Plugin/authake/View/User/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="56" selection-start="361" selection-end="361" vertical-scroll-proportion="-8.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Plugin/authake/View/Groups/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="2" selection-start="85" selection-end="85" vertical-scroll-proportion="-1.3333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Helper/AppHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="6" selection-start="999" selection-end="999" vertical-scroll-proportion="0.8003413">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Plugin/authake/View/Helper/AuthakeHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="39" selection-start="1151" selection-end="1162" vertical-scroll-proportion="-8.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/iGiggles/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="12" selection-start="812" selection-end="812" vertical-scroll-proportion="0.591133">
+          <folding>
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#2;n#tr#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <marker date="1382571560000" expanded="true" signature="920:933" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,5 +1,10 @@
 <?php $cakeDescription = "ljn";?>
+<?php
+echo "<pre>";
+print_r($this->Authake->getUserEMail());
+echo "</pre>";
 
+?>
 <table id="search" border=0>
     <tr>
         <td style="width:180px">
@@ -11,7 +16,16 @@
                 <input type="image" src="img/search_button.png" id="search_button" name="search_button" style="""/>
             </form>
         </td>
-        <td style="text-align: right; padding-right: 20px"><a href="#" id="addWidgetLink">Add widget</a></td>
+        <td style="text-align: right; padding-right: 20px"><a href="#" id="addWidgetLink">Add widget</a>
+			<table border=1><tr>
+			<?php
+			echo "<td>" .$this->Authake->getLogin() ."</td>";
+			echo "<td>" .$this->Authake->Gravatar->get_gravatar($this->Authake->getUserEMail(),27,'','',true) ."</td>";
+
+			?>
+						</tr>
+				</table>
+		</td>
     </tr>
 </table>
 

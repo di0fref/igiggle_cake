@@ -34,6 +34,7 @@
 	echo $this->Html->css("jquery-ui");
 	echo $this->Html->css("rss");
 	echo $this->Html->css("inettuts");
+	//echo $this->Html->css('cake.generic');
 
 	?>
 	<title>

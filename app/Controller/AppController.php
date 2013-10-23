@@ -39,7 +39,7 @@ class AppController extends Controller
 
 	function beforeFilter()
 	{
-		//$this->auth();
+		$this->auth();
 	}
 
 	private function auth()
