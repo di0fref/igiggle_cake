@@ -41,14 +41,15 @@ $(function () {
 				buttons: {
 					OK: function () {
 						$.ajax({
-							url: widgetControl.addWidgetUrl,
+							url: widgetControl.settings.addWidgetUrl,
 							dataType: "json",
 							async: false,
 							type: "post",
 							data: {
 								title: $("#title").val(),
 								url: $("#url").val(),
-								id: guid
+								id: guid,
+								user_id: 1
 							},
 							success: function (response) {
 								if (response.message == true) {

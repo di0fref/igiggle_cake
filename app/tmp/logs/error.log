@@ -13947,3 +13947,521 @@ Stack Trace:
 #7 /Users/fredrik/www/mvc/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WidgetsController), Object(CakeRequest), Object(CakeResponse))
 #8 /Users/fredrik/www/mvc/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #9 {main}
+2013-10-23 13:47:17 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /widgets/getWidgetsExp
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/Model/Datasource/DboSource.php(262): Mysql->connect()
+#1 /Users/fref/www/igiggle/lib/Cake/Model/ConnectionManager.php(107): DboSource->__construct(Array)
+#2 /Users/fref/www/igiggle/lib/Cake/Model/Model.php(3454): ConnectionManager::getDataSource('default')
+#3 /Users/fref/www/igiggle/lib/Cake/Model/Model.php(1124): Model->setDataSource('default')
+#4 /Users/fref/www/igiggle/lib/Cake/Model/Model.php(3476): Model->setSource('widgets')
+#5 /Users/fref/www/igiggle/lib/Cake/Model/Model.php(2880): Model->getDataSource()
+#6 /Users/fref/www/igiggle/lib/Cake/Model/Model.php(2852): Model->_readDataSource('all', Array)
+#7 /Users/fref/www/igiggle/app/Controller/WidgetsController.php(29): Model->find('all', Array)
+#8 [internal function]: WidgetsController->getWidgetsExp()
+#9 /Users/fref/www/igiggle/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(WidgetsController), Array)
+#10 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WidgetsController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/fref/www/igiggle/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-10-23 13:48:33 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /widgets/getWidgetsExp
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/Model/Datasource/DboSource.php(262): Mysql->connect()
+#1 /Users/fref/www/igiggle/lib/Cake/Model/ConnectionManager.php(107): DboSource->__construct(Array)
+#2 /Users/fref/www/igiggle/lib/Cake/Model/Model.php(3454): ConnectionManager::getDataSource('default')
+#3 /Users/fref/www/igiggle/lib/Cake/Model/Model.php(1124): Model->setDataSource('default')
+#4 /Users/fref/www/igiggle/lib/Cake/Model/Model.php(3476): Model->setSource('widgets')
+#5 /Users/fref/www/igiggle/lib/Cake/Model/Model.php(2880): Model->getDataSource()
+#6 /Users/fref/www/igiggle/lib/Cake/Model/Model.php(2852): Model->_readDataSource('all', Array)
+#7 /Users/fref/www/igiggle/app/Controller/WidgetsController.php(29): Model->find('all', Array)
+#8 [internal function]: WidgetsController->getWidgetsExp()
+#9 /Users/fref/www/igiggle/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(WidgetsController), Array)
+#10 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WidgetsController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/fref/www/igiggle/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-10-23 13:48:38 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /widgets/getWidgetsExp
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/Model/Datasource/DboSource.php(262): Mysql->connect()
+#1 /Users/fref/www/igiggle/lib/Cake/Model/ConnectionManager.php(107): DboSource->__construct(Array)
+#2 /Users/fref/www/igiggle/lib/Cake/Model/Model.php(3454): ConnectionManager::getDataSource('default')
+#3 /Users/fref/www/igiggle/lib/Cake/Model/Model.php(1124): Model->setDataSource('default')
+#4 /Users/fref/www/igiggle/lib/Cake/Model/Model.php(3476): Model->setSource('widgets')
+#5 /Users/fref/www/igiggle/lib/Cake/Model/Model.php(2880): Model->getDataSource()
+#6 /Users/fref/www/igiggle/lib/Cake/Model/Model.php(2852): Model->_readDataSource('all', Array)
+#7 /Users/fref/www/igiggle/app/Controller/WidgetsController.php(29): Model->find('all', Array)
+#8 [internal function]: WidgetsController->getWidgetsExp()
+#9 /Users/fref/www/igiggle/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(WidgetsController), Array)
+#10 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#11 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WidgetsController), Object(CakeRequest), Object(CakeResponse))
+#12 /Users/fref/www/igiggle/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-10-23 13:49:15 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column '_column' in 'order clause'
+Request URL: /widgets/getWidgetsExp
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/fref/www/igiggle/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Widget`...', Array)
+#2 /Users/fref/www/igiggle/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Widget`...', Array, Array)
+#3 /Users/fref/www/igiggle/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Widget`...', false)
+#4 /Users/fref/www/igiggle/lib/Cake/Model/Model.php(2880): DboSource->read(Object(Widget), Array)
+#5 /Users/fref/www/igiggle/lib/Cake/Model/Model.php(2852): Model->_readDataSource('all', Array)
+#6 /Users/fref/www/igiggle/app/Controller/WidgetsController.php(29): Model->find('all', Array)
+#7 [internal function]: WidgetsController->getWidgetsExp()
+#8 /Users/fref/www/igiggle/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(WidgetsController), Array)
+#9 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WidgetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/fref/www/igiggle/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-10-23 13:49:49 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column '_column' in 'order clause'
+Request URL: /widgets/getWidgetsExp
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Users/fref/www/igiggle/lib/Cake/Model/Datasource/DboSource.php(426): DboSource->_execute('SELECT `Widget`...', Array)
+#2 /Users/fref/www/igiggle/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Widget`...', Array, Array)
+#3 /Users/fref/www/igiggle/lib/Cake/Model/Datasource/DboSource.php(1077): DboSource->fetchAll('SELECT `Widget`...', false)
+#4 /Users/fref/www/igiggle/lib/Cake/Model/Model.php(2880): DboSource->read(Object(Widget), Array)
+#5 /Users/fref/www/igiggle/lib/Cake/Model/Model.php(2852): Model->_readDataSource('all', Array)
+#6 /Users/fref/www/igiggle/app/Controller/WidgetsController.php(29): Model->find('all', Array)
+#7 [internal function]: WidgetsController->getWidgetsExp()
+#8 /Users/fref/www/igiggle/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(WidgetsController), Array)
+#9 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WidgetsController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/fref/www/igiggle/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-10-23 13:53:01 Error: [MissingControllerException] Controller class UndefinedController could not be found.
+Exception Attributes: array (
+  'class' => 'UndefinedController',
+  'plugin' => NULL,
+)
+Request URL: /undefined
+Stack Trace:
+#0 /Users/fref/www/igiggle/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-23 13:53:06 Error: [MissingControllerException] Controller class UndefinedController could not be found.
+Exception Attributes: array (
+  'class' => 'UndefinedController',
+  'plugin' => NULL,
+)
+Request URL: /undefined
+Stack Trace:
+#0 /Users/fref/www/igiggle/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-10-23 15:50:08 Error: Fatal Error (1): Cannot use object of type stdClass as array in [/Users/fref/www/igiggle/app/Controller/WidgetsController.php, line 45]
+2013-10-23 15:50:08 Error: [FatalErrorException] Cannot use object of type stdClass as array
+Request URL: /widgets/setWidgetDataExp
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/Users/fref/www...', 45)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/Users/fref/www...', 45, Array)
+#2 /Users/fref/www/igiggle/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/Users/fref/www...', 45, Array)
+#3 /Users/fref/www/igiggle/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-23 15:50:29 Error: [MissingViewException] View file "/Users/fref/www/igiggle/app/View/Widgets/set_widget_data_exp.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/fref/www/igiggle/app/View/Widgets/set_widget_data_exp.ctp',
+)
+Request URL: /widgets/setWidgetDataExp
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/View/View.php(459): View->_getViewFileName(NULL)
+#1 /Users/fref/www/igiggle/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WidgetsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/fref/www/igiggle/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-10-23 15:52:06 Error: [MissingViewException] View file "/Users/fref/www/igiggle/app/View/Widgets/set_widget_data_exp.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/fref/www/igiggle/app/View/Widgets/set_widget_data_exp.ctp',
+)
+Request URL: /widgets/setWidgetDataExp
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/View/View.php(459): View->_getViewFileName(NULL)
+#1 /Users/fref/www/igiggle/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WidgetsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/fref/www/igiggle/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-10-23 15:52:18 Error: [MissingViewException] View file "/Users/fref/www/igiggle/app/View/Widgets/set_widget_data_exp.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/fref/www/igiggle/app/View/Widgets/set_widget_data_exp.ctp',
+)
+Request URL: /widgets/setWidgetDataExp
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/View/View.php(459): View->_getViewFileName(NULL)
+#1 /Users/fref/www/igiggle/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WidgetsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/fref/www/igiggle/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-10-23 15:52:19 Error: [MissingActionException] Action Widgets::widgets() could not be found.
+Exception Attributes: array (
+  'controller' => 'Widgets',
+  'action' => 'widgets',
+)
+Request URL: /widgets/widgets/getWidgetsExp
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/Controller/Scaffold.php(153): Scaffold->_scaffold(Object(CakeRequest))
+#1 /Users/fref/www/igiggle/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(WidgetsController), Object(CakeRequest))
+#2 /Users/fref/www/igiggle/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#3 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#4 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WidgetsController), Object(CakeRequest), Object(CakeResponse))
+#5 /Users/fref/www/igiggle/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-10-23 15:52:19 Error: [MissingActionException] Action Widgets::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'Widgets',
+  'action' => 'css',
+)
+Request URL: /widgets/css/inettuts.js.css
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/Controller/Scaffold.php(153): Scaffold->_scaffold(Object(CakeRequest))
+#1 /Users/fref/www/igiggle/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(WidgetsController), Object(CakeRequest))
+#2 /Users/fref/www/igiggle/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#3 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#4 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WidgetsController), Object(CakeRequest), Object(CakeResponse))
+#5 /Users/fref/www/igiggle/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-10-23 15:52:30 Error: [MissingViewException] View file "/Users/fref/www/igiggle/app/View/Widgets/set_widget_data_exp.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/fref/www/igiggle/app/View/Widgets/set_widget_data_exp.ctp',
+)
+Request URL: /widgets/setWidgetDataExp
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/View/View.php(459): View->_getViewFileName(NULL)
+#1 /Users/fref/www/igiggle/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WidgetsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/fref/www/igiggle/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-10-23 15:52:32 Error: [MissingViewException] View file "/Users/fref/www/igiggle/app/View/Widgets/set_widget_data_exp.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/fref/www/igiggle/app/View/Widgets/set_widget_data_exp.ctp',
+)
+Request URL: /widgets/setWidgetDataExp
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/View/View.php(459): View->_getViewFileName(NULL)
+#1 /Users/fref/www/igiggle/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WidgetsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/fref/www/igiggle/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-10-23 15:52:33 Error: [MissingViewException] View file "/Users/fref/www/igiggle/app/View/Widgets/set_widget_data_exp.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/fref/www/igiggle/app/View/Widgets/set_widget_data_exp.ctp',
+)
+Request URL: /widgets/setWidgetDataExp
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/View/View.php(459): View->_getViewFileName(NULL)
+#1 /Users/fref/www/igiggle/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WidgetsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/fref/www/igiggle/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-10-23 15:52:35 Error: [MissingViewException] View file "/Users/fref/www/igiggle/app/View/Widgets/set_widget_data_exp.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/fref/www/igiggle/app/View/Widgets/set_widget_data_exp.ctp',
+)
+Request URL: /widgets/setWidgetDataExp
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/View/View.php(459): View->_getViewFileName(NULL)
+#1 /Users/fref/www/igiggle/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WidgetsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/fref/www/igiggle/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-10-23 15:53:54 Error: [MissingViewException] View file "/Users/fref/www/igiggle/app/View/Widgets/set_widget_data_exp.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/fref/www/igiggle/app/View/Widgets/set_widget_data_exp.ctp',
+)
+Request URL: /widgets/setWidgetDataExp
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/View/View.php(459): View->_getViewFileName(NULL)
+#1 /Users/fref/www/igiggle/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WidgetsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/fref/www/igiggle/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-10-23 15:55:55 Error: [MissingViewException] View file "/Users/fref/www/igiggle/app/View/Widgets/json/set_widget_data_exp.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/fref/www/igiggle/app/View/Widgets/json/set_widget_data_exp.ctp',
+)
+Request URL: /widgets/setWidgetDataExp
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/View/jsonView.php(107): View->_getViewFileName(NULL)
+#1 /Users/fref/www/igiggle/lib/Cake/Controller/Controller.php(952): JsonView->render(NULL, NULL)
+#2 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WidgetsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/fref/www/igiggle/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-10-23 15:59:50 Error: [MissingViewException] View file "/Users/fref/www/igiggle/app/View/Widgets/add_widget.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/fref/www/igiggle/app/View/Widgets/add_widget.ctp',
+)
+Request URL: /widgets/addWidget
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/View/View.php(459): View->_getViewFileName(NULL)
+#1 /Users/fref/www/igiggle/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WidgetsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/fref/www/igiggle/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-10-23 16:01:39 Error: [MissingViewException] View file "/Users/fref/www/igiggle/app/View/Widgets/add_widget.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/fref/www/igiggle/app/View/Widgets/add_widget.ctp',
+)
+Request URL: /widgets/addWidget
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/View/View.php(459): View->_getViewFileName(NULL)
+#1 /Users/fref/www/igiggle/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WidgetsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/fref/www/igiggle/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-10-23 16:03:28 Error: [MissingViewException] View file "/Users/fref/www/igiggle/app/View/Widgets/add_widget.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/fref/www/igiggle/app/View/Widgets/add_widget.ctp',
+)
+Request URL: /widgets/addWidget
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/View/View.php(459): View->_getViewFileName(NULL)
+#1 /Users/fref/www/igiggle/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WidgetsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/fref/www/igiggle/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-10-23 16:22:00 Error: [MissingViewException] View file "/Users/fref/www/igiggle/app/View/Widgets/add_widget.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/fref/www/igiggle/app/View/Widgets/add_widget.ctp',
+)
+Request URL: /widgets/addWidget
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/View/View.php(459): View->_getViewFileName(NULL)
+#1 /Users/fref/www/igiggle/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WidgetsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/fref/www/igiggle/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-10-23 16:22:09 Error: [MissingViewException] View file "/Users/fref/www/igiggle/app/View/Widgets/add_widget.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/fref/www/igiggle/app/View/Widgets/add_widget.ctp',
+)
+Request URL: /widgets/addWidget
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/View/View.php(459): View->_getViewFileName(NULL)
+#1 /Users/fref/www/igiggle/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WidgetsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/fref/www/igiggle/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-10-23 16:22:36 Error: [MissingViewException] View file "/Users/fref/www/igiggle/app/View/Widgets/add_widget.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/fref/www/igiggle/app/View/Widgets/add_widget.ctp',
+)
+Request URL: /widgets/addWidget
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/View/View.php(459): View->_getViewFileName(NULL)
+#1 /Users/fref/www/igiggle/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WidgetsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/fref/www/igiggle/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-10-23 16:23:16 Error: [MissingViewException] View file "/Users/fref/www/igiggle/app/View/Widgets/add_widget.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/fref/www/igiggle/app/View/Widgets/add_widget.ctp',
+)
+Request URL: /widgets/addWidget
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/View/View.php(459): View->_getViewFileName(NULL)
+#1 /Users/fref/www/igiggle/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WidgetsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/fref/www/igiggle/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-10-23 16:24:16 Error: [MissingViewException] View file "/Users/fref/www/igiggle/app/View/Widgets/add_widget.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/fref/www/igiggle/app/View/Widgets/add_widget.ctp',
+)
+Request URL: /widgets/addWidget
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/View/View.php(459): View->_getViewFileName(NULL)
+#1 /Users/fref/www/igiggle/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(194): Controller->render()
+#3 /Users/fref/www/igiggle/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(WidgetsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/fref/www/igiggle/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-10-23 16:33:40 Error: Fatal Error (1): Cannot access protected property Widget::$user_id in [/Users/fref/www/igiggle/app/Controller/WidgetsController.php, line 63]
+2013-10-23 16:33:40 Error: [FatalErrorException] Cannot access protected property Widget::$user_id
+Request URL: /widgets/addWidget
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Cannot access p...', '/Users/fref/www...', 63)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access p...', '/Users/fref/www...', 63, Array)
+#2 /Users/fref/www/igiggle/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot access p...', '/Users/fref/www...', 63, Array)
+#3 /Users/fref/www/igiggle/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-23 16:57:57 Error: Fatal Error (1): Class 'AjaxResponse' not found in [/Users/fref/www/igiggle/app/Controller/WidgetsController.php, line 53]
+2013-10-23 16:57:57 Error: [FatalErrorException] Class 'AjaxResponse' not found
+Request URL: /widgets/addWidget
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Class 'AjaxResp...', '/Users/fref/www...', 53)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AjaxResp...', '/Users/fref/www...', 53, Array)
+#2 /Users/fref/www/igiggle/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AjaxResp...', '/Users/fref/www...', 53, Array)
+#3 /Users/fref/www/igiggle/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-23 16:59:10 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'Lib/AjaxResponse.php' (include_path='/Users/fref/www/igiggle/lib:.::/opt/local/lib/php/pear') in [/Users/fref/www/igiggle/app/Controller/WidgetsController.php, line 7]
+2013-10-23 16:59:10 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'Lib/AjaxResponse.php' (include_path='/Users/fref/www/igiggle/lib:.::/opt/local/lib/php/pear')
+Request URL: /widgets/addWidget
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Users/fref/www...', 7)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/Users/fref/www...', 7, Array)
+#2 /Users/fref/www/igiggle/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/Users/fref/www...', 7, Array)
+#3 /Users/fref/www/igiggle/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-23 16:59:27 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'Lib/AjaxResponse.php' (include_path='/Users/fref/www/igiggle/lib:.::/opt/local/lib/php/pear') in [/Users/fref/www/igiggle/app/Controller/WidgetsController.php, line 7]
+2013-10-23 16:59:27 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'Lib/AjaxResponse.php' (include_path='/Users/fref/www/igiggle/lib:.::/opt/local/lib/php/pear')
+Request URL: /widgets/addWidget
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Users/fref/www...', 7)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/Users/fref/www...', 7, Array)
+#2 /Users/fref/www/igiggle/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/Users/fref/www...', 7, Array)
+#3 /Users/fref/www/igiggle/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-23 16:59:27 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'Lib/AjaxResponse.php' (include_path='/Users/fref/www/igiggle/lib:.::/opt/local/lib/php/pear') in [/Users/fref/www/igiggle/app/Controller/WidgetsController.php, line 7]
+2013-10-23 16:59:27 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'Lib/AjaxResponse.php' (include_path='/Users/fref/www/igiggle/lib:.::/opt/local/lib/php/pear')
+Request URL: /widgets/css/inettuts.js.css
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Users/fref/www...', 7)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/Users/fref/www...', 7, Array)
+#2 /Users/fref/www/igiggle/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/Users/fref/www...', 7, Array)
+#3 /Users/fref/www/igiggle/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-23 16:59:27 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'Lib/AjaxResponse.php' (include_path='/Users/fref/www/igiggle/lib:.::/opt/local/lib/php/pear') in [/Users/fref/www/igiggle/app/Controller/WidgetsController.php, line 7]
+2013-10-23 16:59:27 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'Lib/AjaxResponse.php' (include_path='/Users/fref/www/igiggle/lib:.::/opt/local/lib/php/pear')
+Request URL: /widgets/widgets/getWidgetsExp
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Users/fref/www...', 7)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/Users/fref/www...', 7, Array)
+#2 /Users/fref/www/igiggle/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/Users/fref/www...', 7, Array)
+#3 /Users/fref/www/igiggle/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-23 16:59:54 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'app/Lib/AjaxResponse.php' (include_path='/Users/fref/www/igiggle/lib:.::/opt/local/lib/php/pear') in [/Users/fref/www/igiggle/app/Controller/WidgetsController.php, line 7]
+2013-10-23 16:59:54 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'app/Lib/AjaxResponse.php' (include_path='/Users/fref/www/igiggle/lib:.::/opt/local/lib/php/pear')
+Request URL: /widgets/addWidget
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Users/fref/www...', 7)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/Users/fref/www...', 7, Array)
+#2 /Users/fref/www/igiggle/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/Users/fref/www...', 7, Array)
+#3 /Users/fref/www/igiggle/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-23 16:59:54 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'app/Lib/AjaxResponse.php' (include_path='/Users/fref/www/igiggle/lib:.::/opt/local/lib/php/pear') in [/Users/fref/www/igiggle/app/Controller/WidgetsController.php, line 7]
+2013-10-23 16:59:54 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'app/Lib/AjaxResponse.php' (include_path='/Users/fref/www/igiggle/lib:.::/opt/local/lib/php/pear')
+Request URL: /widgets/widgets/getWidgetsExp
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Users/fref/www...', 7)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/Users/fref/www...', 7, Array)
+#2 /Users/fref/www/igiggle/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/Users/fref/www...', 7, Array)
+#3 /Users/fref/www/igiggle/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-23 16:59:54 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'app/Lib/AjaxResponse.php' (include_path='/Users/fref/www/igiggle/lib:.::/opt/local/lib/php/pear') in [/Users/fref/www/igiggle/app/Controller/WidgetsController.php, line 7]
+2013-10-23 16:59:54 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'app/Lib/AjaxResponse.php' (include_path='/Users/fref/www/igiggle/lib:.::/opt/local/lib/php/pear')
+Request URL: /widgets/css/inettuts.js.css
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Users/fref/www...', 7)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/Users/fref/www...', 7, Array)
+#2 /Users/fref/www/igiggle/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/Users/fref/www...', 7, Array)
+#3 /Users/fref/www/igiggle/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-23 17:03:14 Error: Fatal Error (64): require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'app/Lib/AjaxResponse.php' (include_path='/Users/fref/www/igiggle/lib:.::/opt/local/lib/php/pear') in [/Users/fref/www/igiggle/app/Controller/WidgetsController.php, line 7]
+2013-10-23 17:03:14 Error: [FatalErrorException] require_once() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required 'app/Lib/AjaxResponse.php' (include_path='/Users/fref/www/igiggle/lib:.::/opt/local/lib/php/pear')
+Request URL: /widgets/addWidget
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(64, 'require_once() ...', '/Users/fref/www...', 7)
+#1 [internal function]: ErrorHandler::handleError(64, 'require_once() ...', '/Users/fref/www...', 7, Array)
+#2 /Users/fref/www/igiggle/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 64, 'require_once() ...', '/Users/fref/www...', 7, Array)
+#3 /Users/fref/www/igiggle/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-23 17:03:27 Error: Fatal Error (1): Class 'AjaxResponse' not found in [/Users/fref/www/igiggle/app/Controller/WidgetsController.php, line 53]
+2013-10-23 17:03:27 Error: [FatalErrorException] Class 'AjaxResponse' not found
+Request URL: /widgets/addWidget
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Class 'AjaxResp...', '/Users/fref/www...', 53)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AjaxResp...', '/Users/fref/www...', 53, Array)
+#2 /Users/fref/www/igiggle/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AjaxResp...', '/Users/fref/www...', 53, Array)
+#3 /Users/fref/www/igiggle/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-23 17:03:51 Error: Fatal Error (1): Class 'AjaxResponse' not found in [/Users/fref/www/igiggle/app/Controller/WidgetsController.php, line 53]
+2013-10-23 17:03:51 Error: [FatalErrorException] Class 'AjaxResponse' not found
+Request URL: /widgets/addWidget
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Class 'AjaxResp...', '/Users/fref/www...', 53)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AjaxResp...', '/Users/fref/www...', 53, Array)
+#2 /Users/fref/www/igiggle/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AjaxResp...', '/Users/fref/www...', 53, Array)
+#3 /Users/fref/www/igiggle/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-23 17:04:07 Error: Fatal Error (1): Class 'AjaxResponse' not found in [/Users/fref/www/igiggle/app/Controller/WidgetsController.php, line 53]
+2013-10-23 17:04:07 Error: [FatalErrorException] Class 'AjaxResponse' not found
+Request URL: /widgets/addWidget
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Class 'AjaxResp...', '/Users/fref/www...', 53)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AjaxResp...', '/Users/fref/www...', 53, Array)
+#2 /Users/fref/www/igiggle/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AjaxResp...', '/Users/fref/www...', 53, Array)
+#3 /Users/fref/www/igiggle/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-23 17:05:26 Error: Fatal Error (1): Class 'AjaxResponse' not found in [/Users/fref/www/igiggle/app/Controller/WidgetsController.php, line 53]
+2013-10-23 17:05:26 Error: [FatalErrorException] Class 'AjaxResponse' not found
+Request URL: /widgets/addWidget
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Class 'AjaxResp...', '/Users/fref/www...', 53)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AjaxResp...', '/Users/fref/www...', 53, Array)
+#2 /Users/fref/www/igiggle/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AjaxResp...', '/Users/fref/www...', 53, Array)
+#3 /Users/fref/www/igiggle/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-23 17:07:09 Error: Fatal Error (1): Class 'AjaxResponse' not found in [/Users/fref/www/igiggle/app/Controller/WidgetsController.php, line 53]
+2013-10-23 17:07:09 Error: [FatalErrorException] Class 'AjaxResponse' not found
+Request URL: /widgets/addWidget
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Class 'AjaxResp...', '/Users/fref/www...', 53)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AjaxResp...', '/Users/fref/www...', 53, Array)
+#2 /Users/fref/www/igiggle/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AjaxResp...', '/Users/fref/www...', 53, Array)
+#3 /Users/fref/www/igiggle/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-10-23 17:07:30 Error: Fatal Error (1): Class 'AjaxResponse' not found in [/Users/fref/www/igiggle/app/Controller/WidgetsController.php, line 53]
+2013-10-23 17:07:30 Error: [FatalErrorException] Class 'AjaxResponse' not found
+Request URL: /widgets/addWidget
+Stack Trace:
+#0 /Users/fref/www/igiggle/lib/Cake/Error/ErrorHandler.php(205): ErrorHandler::handleFatalError(1, 'Class 'AjaxResp...', '/Users/fref/www...', 53)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AjaxResp...', '/Users/fref/www...', 53, Array)
+#2 /Users/fref/www/igiggle/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AjaxResp...', '/Users/fref/www...', 53, Array)
+#3 /Users/fref/www/igiggle/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
