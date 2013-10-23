@@ -23,10 +23,10 @@
  * You can specify multiple configurations for production, development and testing.
  *
  * datasource => The name of a supported datasource; valid options are as follows:
- *		Database/Mysql 		- MySQL 4 & 5,
- *		Database/Sqlite		- SQLite (PHP5 only),
- *		Database/Postgres	- PostgreSQL 7 and higher,
- *		Database/Sqlserver	- Microsoft SQL Server 2005 and higher
+ *        Database/Mysql        - MySQL 4 & 5,
+ *        Database/Sqlite        - SQLite (PHP5 only),
+ *        Database/Postgres    - PostgreSQL 7 and higher,
+ *        Database/Sqlserver    - Microsoft SQL Server 2005 and higher
  *
  * You can add custom database datasources (or override existing datasources) by adding the
  * appropriate file to app/Model/Datasource/Database. Datasources should be named 'MyDatasource.php',
@@ -59,25 +59,26 @@
  * For Postgres : http://www.postgresql.org/docs/9.2/static/sql-set.html
  * For Sql Server : http://msdn.microsoft.com/en-us/library/ms190356.aspx
  */
-class DATABASE_CONFIG {
+class DATABASE_CONFIG
+{
+
+	public $authake = array(
+		'datasource' => 'Database/Mysql',
+		'persistent' => false,
+		'host' => 'localhost',
+		'login' => "root", //username for the db
+		'password' => "root", //password for the db
+		'database' => 's6411_igiggle', //or any other where you have imported the authake.sql file
+		'prefix' => "",
+	);
+
 
 	public $default = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'root',
-		'password' => '',
-		'database' => 's6411_igiggle',
-		'prefix' => '',
-		'encoding' => 'utf8',
-	);
-
-	public $test = array(
-		'datasource' => 'Database/Mysql',
-		'persistent' => false,
-		'host' => 'localhost',
-		'login' => 'root',
-		'password' => '',
+		'password' => 'root',
 		'database' => 's6411_igiggle',
 		'prefix' => '',
 		'encoding' => 'utf8',

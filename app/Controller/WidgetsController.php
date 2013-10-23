@@ -4,6 +4,9 @@ App::uses('AppController', 'Controller');
  * Widgets Controller
  *
  */
+App::uses('AjaxResponse', 'Http');
+
+
 class WidgetsController extends AppController
 {
 	public $components = array(
@@ -14,25 +17,29 @@ class WidgetsController extends AppController
 
 	function getWidgetsExp()
 	{
+		$response = new AjaxResponse();
+
 		$this->viewClass = "json";
 		$result = $this->Widget->find("all",
 			array(
 				"conditions" => array(
-					"user_id" => 1,
+					"user_id" => $this->Authake->getUserId(),
 				),
 				"order" => array(
 					"_column" => "asc",
 					"_order" => "asc"
 				)
 			)
-
 		);
-		$this->set("result", $result);
-		$this->set('_serialize', array("result"));
+		$response->setData($result);
+		$this->set("response", $response->get());
+		$this->set('_serialize', array("response"));
 	}
 
 	function setWidgetDataExp()
 	{
+		$response = new AjaxResponse();
+
 		$this->viewClass = "json";
 		$widgets = $this->request->input('json_decode');
 		foreach ($widgets as $widget) {
@@ -43,41 +50,61 @@ class WidgetsController extends AppController
 			);
 			$this->Widget->save($save_data);
 		}
-		$this->set("message", array("Widget configuration saved"));
-		$this->set('_serialize', array("message"));
+		$response->setMessage("Widget configuration saved");
+		$this->set("response", $response->get());
+		$this->set('_serialize', array("response"));
 
+	}
+
+	function WidgetErrorHandler()
+	{
 	}
 
 	function addWidget()
 	{
 		$response = new AjaxResponse();
 
-		$this->viewClass = "json";
-		$response->setMessage("Widget added sucessfully.");
+		$widget_save_data = $this->request->data;
+		$widget_save_data["user_id"] = $this->Authake->getUserId();
 
+		$this->viewClass = "json";
+		$response->setMessage("Widget added successfully.");
+		set_error_handler(array(&$this, "WidgetErrorHandler"));
 		try {
 			$data = file_get_contents($this->request->data["url"]);
 			$x = new SimpleXmlElement($data);
 
 			$this->Widget->create();
-			if(!$this->Widget->save(array("Widget" => $this->request->data))){
+			if (!$this->Widget->save(array("Widget" => $widget_save_data))) {
+				$response->setStatus(false);
 				$response->setMessage("Unable to add new Widget.");
 			}
 		} catch (Exception $e) {
-			$response->setMessage("Error parsing xml::" . $this->request->data["url"].".");
+			$response->setStatus(false);
+			$response->setMessage("Error parsing xml::" . $this->request->data["url"] . ".");
 		}
-		$this->set("message", $response->get());
-		$this->set('_serialize', array("message"));
+		$this->set("response", $response->get());
+		$this->set('_serialize', array("response"));
 
 	}
 
 	function removeWidget()
 	{
-		die($this->Widget->removeWidget($this->request->data["id"]));
+		$this->viewClass = "json";
+		$response = new AjaxResponse();
+		$response->setMessage("Widget removed.");
+		if(!$this->Widget->delete($this->request->data["id"])){
+			$response->setStatus(false);
+			$response->setMessage("Unable to delete Widget.");
+		}
+		$this->set("response", $response->get());
+		$this->set('_serialize', array("response"));
 	}
 
 	public function getWidgetData()
 	{
+		$response = new AjaxResponse();
+
 		$result = $this->Widget->find("first", array(
 				"conditions" => array(
 					"id" => $this->request->data("id"),
@@ -89,17 +116,21 @@ class WidgetsController extends AppController
 				)
 			)
 		);
-
+		set_error_handler(array(&$this, "WidgetErrorHandler"));
 		try {
 			$data = file_get_contents($result["Widget"]["url"]);
 			$xml = new SimpleXmlElement($data);
-			$response = array(
+
+			$widgetData = array(
 				"xml" => $xml,
 				"nr_of_articles" => $result["Widget"]["nr_of_articles_cond"]
 			);
-			$this->set("data", $response);
+			$this->set("data", $widgetData);
 		} catch (Exception $e) {
-			echo "Error loading feed::" . $result["Widget"]["url"];
+			$response->setStatus(false);
+			$response->setMessage("Error loading feed::" . $result["Widget"]["url"]);
+			$this->set("response", $response->get());
+			$this->set('_serialize', array("response"));
 		}
 
 		$this->render("entry");
@@ -107,7 +138,23 @@ class WidgetsController extends AppController
 
 	function saveWidgetSettings()
 	{
-		die($this->Widget->saveWidgetSettings($this->request->data));
+
+		$response = new AjaxResponse();
+
+		$this->viewClass = "json";
+		$response->setMessage("Widget saved successfully.");
+
+		$widget_save_data = array(
+			"id" => $this->request->data["id"],
+			"nr_of_articles" => $this->request->data["nr_of_articles"]
+
+		);
+		if (!$this->Widget->save($widget_save_data)) {
+			$response->setMessage("Unable to save Widget settings.");
+			$response->setStatus(false);
+		}
+		$this->set("response", $response->get());
+		$this->set('_serialize', array("response"));
 	}
 
 	function addWidgetForm()
@@ -115,8 +162,18 @@ class WidgetsController extends AppController
 
 	}
 
-	public function widgetEditForm()
+	function editWidgetForm()
 	{
-		$this->set("data", $this->Widget->getWidgetEditForm($this->request->data("id")));
+		$result = $this->Widget->find("first", array(
+				"conditions" => array(
+					"id" => $this->request->data["id"]
+				),
+				"fields" => array(
+					"nr_of_articles_cond",
+				)
+			)
+		);
+		$this->set("data", $result);
 	}
+
 }

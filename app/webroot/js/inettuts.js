@@ -62,7 +62,6 @@ var iNettuts = {
 				id: id
 			}).done(function () {
 					$("#" + id + " " + iNettuts.settings.contentSelector).html(iNettuts.settings.widgetDefault.content);
-
 					iNettuts.loadWidget(id);
 				});
 			$(this).parents().find('.edit-box').slideUp();
@@ -143,7 +142,7 @@ var iNettuts = {
 					e.stopPropagation();
 				}).toggle(function () {
 						$(this).parents(settings.widgetSelector).find('.edit-box')
-							.load("widgets/widgetEditForm", {id: $(this).parent().parent().attr("id")})
+							.load("widgets/editWidgetForm", {id: $(this).parent().parent().attr("id")})
 							.slideDown();
 						return false;
 					},
@@ -266,9 +265,8 @@ var iNettuts = {
 			dataType: "json",
 			async: false,
 			success: function (response) {
-				console.log(response.result);
 				var opt = {};
-				$.each(response.result, function (obj_key, obj) {
+				$.each(response.response.data, function (obj_key, obj) {
 					$.each(obj, function (key, value) {
 						opt[key] = value;
 					});

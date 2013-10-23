@@ -26,7 +26,7 @@
  * its action called 'display', and we pass a param to select the view file
  * to use (in this case, /app/View/Pages/home.ctp)...
  */
-	Router::connect('/', array('controller' => 'iGiggles', 'action' => 'index', 'home'));
+	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
 /**
  * ...and connect the rest of 'Pages' controller's URLs.
  */
@@ -35,6 +35,7 @@
  * Load all plugin routes. See the CakePlugin documentation on
  * how to customize the loading of plugin routes.
  */
+//Router::connect('/login', array('plugin'=>'authake','controller' => 'user', 'action' => 'login'));
 	CakePlugin::routes();
 
 /**

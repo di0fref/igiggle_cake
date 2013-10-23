@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by JetBrains PhpStorm.
- * User: fref
- * Date: 10/23/13
- * Time: 16:48
- */
 
 /*
 * Class: 
@@ -14,6 +8,7 @@ class AjaxResponse implements Serializable
 {
 	protected $message = "";
 	protected $status = true; /* Ok as default */
+	protected $data;
 
 	public function __construct()
 	{
@@ -23,7 +18,8 @@ class AjaxResponse implements Serializable
 	{
 		return json_encode(array(
 				"status" => $this->status,
-				"message" => $this->message
+				"message" => $this->message,
+				"data" => $this->data
 			)
 		);
 
@@ -33,13 +29,19 @@ class AjaxResponse implements Serializable
 	{
 		return array(
 			"status" => $this->status,
-			"message" => $this->message
+			"message" => $this->message,
+			"data" => $this->data
 		);
 	}
 
 	function unserialize($string)
 	{
 		return json_decode($string);
+	}
+
+	public function setData($data)
+	{
+		$this->data = $data;
 	}
 
 	public function setMessage($message)

@@ -48,11 +48,10 @@ $(function () {
 							data: {
 								title: $("#title").val(),
 								url: $("#url").val(),
-								id: guid,
-								user_id: 1
+								id: guid
 							},
 							success: function (response) {
-								if (response.message == true) {
+								if (response.response.status == true) {
 									iNettuts.addWidget(widgetControl.settings.addWidgetColumn, {
 										id: guid,
 										color: widgetControl.settings.color,
@@ -61,7 +60,7 @@ $(function () {
 									widgetControl.settings.dialog.dialog("close");
 								}
 								else {
-									widgetControl.settings.dialog.append(response.message);
+									widgetControl.settings.dialog.append(response.response.message);
 								}
 							}
 						});
