@@ -44,7 +44,7 @@ $(function () {
 								id: guid
 							},
 							success: function (response) {
-								if (response.message == true) {
+								if (response.status == true) {
 									iNettuts.addWidget(widgetControl.settings.addWidgetColumn, {
 										id: guid,
 										color: widgetControl.settings.color,

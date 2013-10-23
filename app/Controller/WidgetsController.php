@@ -33,13 +33,42 @@ class WidgetsController extends AppController
 
 	function setWidgetDataExp()
 	{
-		$data = $this->request->input('json_decode');
-		die(json_encode($this->Widget->setWidgetDataExp($data)));
+		$this->viewClass = "json";
+		$widgets = $this->request->input('json_decode');
+		foreach ($widgets as $widget) {
+			$save_data = array(
+				"id" => $widget->id,
+				"_column" => $widget->column,
+				"_order" => $widget->order,
+			);
+			$this->Widget->save($save_data);
+		}
+		$this->set("message", array("Widget configuration saved"));
+		$this->set('_serialize', array("message"));
+
 	}
 
 	function addWidget()
 	{
-		die(json_encode($this->Widget->addWidget($this->request->data)));
+		$response = new AjaxResponse();
+
+		$this->viewClass = "json";
+		$response->setMessage("Widget added sucessfully.");
+
+		try {
+			$data = file_get_contents($this->request->data["url"]);
+			$x = new SimpleXmlElement($data);
+
+			$this->Widget->create();
+			if(!$this->Widget->save(array("Widget" => $this->request->data))){
+				$response->setMessage("Unable to add new Widget.");
+			}
+		} catch (Exception $e) {
+			$response->setMessage("Error parsing xml::" . $this->request->data["url"].".");
+		}
+		$this->set("message", $response->get());
+		$this->set('_serialize', array("message"));
+
 	}
 
 	function removeWidget()

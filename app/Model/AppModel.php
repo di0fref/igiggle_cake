@@ -22,6 +22,7 @@
  */
 
 App::uses('Model', 'Model');
+App::uses('AjaxResponse', 'Http');
 
 /**
  * Application model for Cake.

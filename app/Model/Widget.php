@@ -7,17 +7,22 @@ App::uses('AppModel', 'Model');
 class Widget extends AppModel
 {
 	protected $config_table = "widgets";
-	protected $widget_data_table = "widget_data";
+	protected $widget_data_table = "widgets";
 	protected $database = "s6411_igiggle";
 	protected $widget_config_field = "config";
-	protected $user_id = 1;
+	public $user_id = 1;
+	public $title;
+	public $id;
+	public $_order;
+	public $_column;
+
 	public $virtualFields = array(
 		'nr_of_articles_cond' => 'IFNULL(nr_of_articles, 10)'
 	);
 
 	function __construct()
 	{
-		mysql_connect("localhost", "root", "root");
+		mysql_connect("localhost", "root", "");
 		mysql_select_db($this->database);
 
 		parent::__construct();
@@ -51,7 +56,6 @@ class Widget extends AppModel
 		}
 
 		$sql = "INSERT INTO {$this->widget_data_table} (id, user_id, title, url) VALUES('{$request["id"]}', 1, '{$request["title"]}', '{$request["url"]}')";
-
 		mysql_query($sql);
 
 		return array("message" => true);
