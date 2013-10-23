@@ -212,7 +212,7 @@ class ModelIntegrationTest extends BaseModelTest {
 		$TestModel = new Apple();
 		$this->assertEquals(array(), $TestModel->Behaviors->loaded());
 
-		$TestModel->Behaviors->load('Tree', array('left' => 'left_field', 'right' => 'right_field'));
+		$TestModel->Behaviors->attach('Tree', array('left' => 'left_field', 'right' => 'right_field'));
 		$this->assertTrue(is_object($TestModel->Behaviors->Tree));
 		$this->assertEquals(array('Tree'), $TestModel->Behaviors->loaded());
 
@@ -227,11 +227,11 @@ class ModelIntegrationTest extends BaseModelTest {
 		);
 		$this->assertEquals($expected, $TestModel->Behaviors->Tree->settings['Apple']);
 
-		$TestModel->Behaviors->load('Tree', array('enabled' => false));
+		$TestModel->Behaviors->attach('Tree', array('enabled' => false));
 		$this->assertEquals($expected, $TestModel->Behaviors->Tree->settings['Apple']);
 		$this->assertEquals(array('Tree'), $TestModel->Behaviors->loaded());
 
-		$TestModel->Behaviors->unload('Tree');
+		$TestModel->Behaviors->detach('Tree');
 		$this->assertEquals(array(), $TestModel->Behaviors->loaded());
 		$this->assertFalse(isset($TestModel->Behaviors->Tree));
 	}

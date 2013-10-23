@@ -2,7 +2,7 @@
 /**
  * This is the PHP base ACL configuration file.
  *
- * Use it to configure access control of your CakePHP application.
+ * Use it to configure access control of your Cake application.
  *
  * PHP 5
  *

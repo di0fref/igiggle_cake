@@ -255,7 +255,7 @@ class ModelWriteTest extends BaseModelTest {
 /**
  * test that Caches are getting cleared on save().
  * ensure that both inflections of controller names are getting cleared
- * as URL for controller could be either overallFavorites/index or overall_favorites/index
+ * as url for controller could be either overallFavorites/index or overall_favorites/index
  *
  * @return void
  */
@@ -318,7 +318,7 @@ class ModelWriteTest extends BaseModelTest {
 		$TestModel2 = new Item();
 
 		$result = $TestModel->findById(1);
-		$this->assertNull($result['Syfile']['item_count']);
+		$this->assertSame($result['Syfile']['item_count'], null);
 
 		$TestModel2->save(array(
 			'name' => 'Item 7',
@@ -480,7 +480,7 @@ class ModelWriteTest extends BaseModelTest {
 		$TestModel2->belongsTo['Syfile']['counterScope'] = array('published' => true);
 
 		$result = $TestModel->findById(1);
-		$this->assertNull($result['Syfile']['item_count']);
+		$this->assertSame($result['Syfile']['item_count'], null);
 
 		$TestModel2->save(array(
 			'name' => 'Item 7',
@@ -4629,7 +4629,7 @@ class ModelWriteTest extends BaseModelTest {
 			array('validate' => 'first')
 		);
 
-		$this->assertTrue($result);
+		$this->assertSame($result, true);
 
 		$result = $model->Comment->find('all');
 		$this->assertSame(count($result), 1);
@@ -6033,7 +6033,7 @@ class ModelWriteTest extends BaseModelTest {
 			array('validate' => 'first')
 		);
 
-		$this->assertTrue($result);
+		$this->assertSame($result, true);
 
 		$result = $model->Comment->find('all');
 		$this->assertSame(count($result), 1);
@@ -7144,7 +7144,7 @@ class ModelWriteTest extends BaseModelTest {
 		$TestModel = new Item();
 
 		$result = $TestModel->save(array('published' => true, 'id' => 1));
-		$this->assertTrue((bool)$result);
+		$this->assertTrue((boolean)$result);
 		$result = $TestModel->find('first', array(
 			'fields' => array('id', 'published'),
 			'conditions' => array('Item.id' => 1)));

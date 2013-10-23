@@ -38,7 +38,7 @@ class DbAclNodeTestBase extends AclNode {
 /**
  * cacheSources property
  *
- * @var boolean
+ * @var bool false
  */
 	public $cacheSources = false;
 }
@@ -104,7 +104,7 @@ class DbPermissionTest extends CakeTestModel {
 /**
  * cacheQueries property
  *
- * @var boolean
+ * @var bool false
  */
 	public $cacheQueries = false;
 
@@ -185,6 +185,7 @@ class TestDbAcl extends DbAcl {
 /**
  * construct method
  *
+ * @return void
  */
 	public function __construct() {
 		$this->Aro = new DbAroTest();

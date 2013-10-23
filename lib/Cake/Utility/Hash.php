@@ -442,14 +442,14 @@ class Hash {
 			$val = $needle[$key];
 			unset($needle[$key]);
 
-			if (array_key_exists($key, $data) && is_array($val)) {
+			if (isset($data[$key]) && is_array($val)) {
 				$next = $data[$key];
 				unset($data[$key]);
 
 				if (!empty($val)) {
 					$stack[] = array($val, $next);
 				}
-			} elseif (!array_key_exists($key, $data) || $data[$key] != $val) {
+			} elseif (!isset($data[$key]) || $data[$key] != $val) {
 				return false;
 			}
 
@@ -553,7 +553,7 @@ class Hash {
 	}
 
 /**
- * Expands a flat array to a nested array.
+ * Expand/unflattens an string to an array
  *
  * For example, unflattens an array that was collapsed with `Hash::flatten()`
  * into a multi-dimensional array. So, `array('0.Foo.Bar' => 'Far')` becomes

@@ -703,7 +703,7 @@ class CakeSchemaTest extends CakeTestCase {
 		);
 		$result = $this->Schema->generateTable('fields', $posts);
 		$this->assertRegExp('/public \$fields/', $result);
-		$this->assertRegExp('/\'type\' \=\> \'fulltext\'/', $result);
+		$this->assertPattern('/\'type\' \=\> \'fulltext\'/', $result);
 	}
 
 /**

@@ -39,7 +39,7 @@ class RedisEngine extends CacheEngine {
  *  - server = string URL or ip to the Redis server host
  *  - port = integer port number to the Redis server (default: 6379)
  *  - timeout = float timeout in seconds (default: 0)
- *  - persistent = boolean Connects to the Redis server with a persistent connection (default: true)
+ *  - persistent = bool Connects to the Redis server with a persistent connection (default: true)
  *
  * @var array
  */
@@ -213,6 +213,8 @@ class RedisEngine extends CacheEngine {
 
 /**
  * Disconnects from the redis server
+ *
+ * @return void
  */
 	public function __destruct() {
 		if (!$this->settings['persistent']) {

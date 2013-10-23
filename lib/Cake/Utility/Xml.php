@@ -23,7 +23,7 @@
 App::uses('HttpSocket', 'Network/Http');
 
 /**
- * XML handling for CakePHP.
+ * XML handling for Cake.
  *
  * The methods in these classes enable the datasources that use XML to work.
  *

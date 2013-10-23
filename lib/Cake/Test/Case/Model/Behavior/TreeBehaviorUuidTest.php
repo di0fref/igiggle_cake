@@ -35,7 +35,7 @@ class TreeBehaviorUuidTest extends CakeTestCase {
 /**
  * Whether backup global state for each test method or not
  *
- * @var boolean
+ * @var bool false
  */
 	public $backupGlobals = false;
 
@@ -114,7 +114,7 @@ class TreeBehaviorUuidTest extends CakeTestCase {
 			array($modelClass => array('name' => '1.1.1', $leftField => 12, $rightField => 13)));
 		$this->assertEquals($direct, $expects);
 		$validTree = $this->Tree->verify();
-		$this->assertTrue($validTree);
+		$this->assertSame($validTree, true);
 	}
 
 /**
@@ -177,7 +177,7 @@ class TreeBehaviorUuidTest extends CakeTestCase {
 		$this->assertEquals(array_values($nodes), $expects);
 
 		$validTree = $this->Tree->verify();
-		$this->assertTrue($validTree);
+		$this->assertSame($validTree, true);
 	}
 
 /**
@@ -210,7 +210,7 @@ class TreeBehaviorUuidTest extends CakeTestCase {
 		$this->assertEquals(array_values($nodes), $expects);
 
 		$validTree = $this->Tree->verify();
-		$this->assertTrue($validTree);
+		$this->assertSame($validTree, true);
 	}
 
 /**

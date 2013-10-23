@@ -201,21 +201,17 @@ class FileLog extends BaseLog {
 		}
 
 		if ($this->_config['rotate'] === 0) {
-			$result = unlink($filepath);
-		} else {
-			$result = rename($filepath, $filepath . '.' . time());
+			return unlink($filepath);
 		}
 
-		$files = glob($filepath . '.*');
-		if ($files) {
-			$filesToDelete = count($files) - $this->_config['rotate'];
-			while ($filesToDelete > 0) {
+		if ($this->_config['rotate']) {
+			$files = glob($filepath . '.*');
+			if (count($files) === $this->_config['rotate']) {
 				unlink(array_shift($files));
-				$filesToDelete--;
 			}
 		}
 
-		return $result;
+		return rename($filepath, $filepath . '.' . time());
 	}
 
 }

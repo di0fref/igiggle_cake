@@ -116,7 +116,7 @@ class DboSourceTest extends CakeTestCase {
 /**
  * autoFixtures property
  *
- * @var boolean
+ * @var bool false
  */
 	public $autoFixtures = false;
 
@@ -684,22 +684,6 @@ class DboSourceTest extends CakeTestCase {
 	}
 
 /**
- * Test that flushMethodCache works as expected
- *
- * @return void
- */
-	public function testFlushMethodCache() {
-		$this->testDb->cacheMethods = true;
-		$this->testDb->cacheMethod('name', 'some-key', 'stuff');
-
-		Cache::write('method_cache', DboTestSource::$methodCache, '_cake_core_');
-
-		$this->testDb->flushMethodCache();
-		$result = $this->testDb->cacheMethod('name', 'some-key');
-		$this->assertNull($result);
-	}
-
-/**
  * testLog method
  *
  * @outputBuffering enabled
@@ -959,31 +943,6 @@ class DboSourceTest extends CakeTestCase {
 
 		$this->assertNotEquals($first, $second);
 		$this->assertEquals(2, count(DboTestSource::$methodCache['fields']));
-	}
-
-/**
- * test that fields() method cache detects schema name changes
- *
- * @return void
- */
-	public function testFieldsCacheKeyWithSchemanameChange() {
-		if ($this->db instanceof Postgres || $this->db instanceof Sqlserver) {
-			$this->markTestSkipped('Cannot run this test with SqlServer or Postgres');
-		}
-		Cache::delete('method_cache', '_cake_core_');
-		DboSource::$methodCache = array();
-		$Article = ClassRegistry::init('Article');
-
-		$ds = $Article->getDataSource();
-		$ds->cacheMethods = true;
-		$first = $ds->fields($Article);
-
-		$Article->schemaName = 'secondSchema';
-		$ds = $Article->getDataSource();
-		$ds->cacheMethods = true;
-		$second = $ds->fields($Article);
-
-		$this->assertEquals(2, count(DboSource::$methodCache['fields']));
 	}
 
 /**

@@ -676,13 +676,13 @@ class TreeBehavior extends ModelBehavior {
 
 		$scope = $this->settings[$Model->alias]['scope'];
 		if ($scope && ($scope !== '1 = 1' && $scope !== true)) {
-			$params['conditions'][] = $scope;
+			$conditions[] = $scope;
 		}
 
 		$children = $Model->find('all', $params);
 		$hasChildren = (bool)$children;
 
-		if ($parentId !== null) {
+		if (!is_null($parentId)) {
 			if ($hasChildren) {
 				$Model->updateAll(
 					array($this->settings[$Model->alias]['left'] => $counter),
@@ -713,7 +713,7 @@ class TreeBehavior extends ModelBehavior {
 			$children = $Model->find('all', $params);
 		}
 
-		if ($parentId !== null && $hasChildren) {
+		if (!is_null($parentId) && $hasChildren) {
 			$Model->updateAll(
 				array($this->settings[$Model->alias]['right'] => $counter),
 				array($Model->escapeField() => $parentId)

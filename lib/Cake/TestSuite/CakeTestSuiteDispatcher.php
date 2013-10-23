@@ -79,6 +79,7 @@ class CakeTestSuiteDispatcher {
 /**
  * constructor
  *
+ * @return void
  */
 	public function __construct() {
 		$this->_baseUrl = $_SERVER['PHP_SELF'];
@@ -190,7 +191,7 @@ class CakeTestSuiteDispatcher {
 	}
 
 /**
- * Parse URL params into a 'request'
+ * Parse url params into a 'request'
  *
  * @return void
  */

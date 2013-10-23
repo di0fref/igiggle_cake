@@ -78,7 +78,6 @@ class FolderTest extends CakeTestCase {
 				rmdir(TMP . $dir);
 			}
 		}
-		parent::tearDown();
 	}
 
 /**

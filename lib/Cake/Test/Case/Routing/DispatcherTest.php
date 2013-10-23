@@ -341,7 +341,7 @@ class SomePostsController extends AppController {
 /**
  * autoRender property
  *
- * @var boolean
+ * @var bool false
  */
 	public $autoRender = false;
 

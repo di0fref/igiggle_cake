@@ -38,6 +38,7 @@ abstract class BaseLog implements CakeLogInterface {
  * __construct method
  *
  * @param array $config Configuration array
+ * @return void
  */
 	public function __construct($config = array()) {
 		$this->config($config);

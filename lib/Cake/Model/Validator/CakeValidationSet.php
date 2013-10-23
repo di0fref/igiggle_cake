@@ -359,7 +359,7 @@ class CakeValidationSet implements ArrayAccess, IteratorAggregate, Countable {
 /**
  * Returns the number of rules in this set
  *
- * @return integer
+ * @return int
  */
 	public function count() {
 		return count($this->_rules);

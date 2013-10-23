@@ -11,30 +11,28 @@ Some Handy Links
 
 [CakePHP](http://www.cakephp.org) - The rapid development PHP framework
 
-[CookBook](http://book.cakephp.org) - THE CakePHP user documentation; start learning here!
-
-[API](http://api.cakephp.org) - A reference to CakePHP's classes
+[Cookbook](http://book.cakephp.org) - THE Cake user documentation; start learning here!
 
 [Plugins](http://plugins.cakephp.org/) - A repository of extensions to the framework
 
 [The Bakery](http://bakery.cakephp.org) - Tips, tutorials and articles
 
-[Community Center](http://community.cakephp.org) - A source for everything community related
+[API](http://api.cakephp.org) - A reference to Cake's classes
 
-[Training](http://training.cakephp.org) - Join a live session and get skilled with the framework
+[CakePHP TV](http://tv.cakephp.org) - Screen casts from events and video tutorials
 
-[CakeFest](http://cakefest.org) - Don't miss our annual CakePHP conference
-
-[Cake Software Foundation](http://cakefoundation.org) - Promoting development related to CakePHP
+[The Cake Software Foundation](http://cakefoundation.org/) - promoting development related to CakePHP
 
 Get Support!
 ------------
 
-[#cakephp](http://webchat.freenode.net/?channels=#cakephp) on irc.freenode.net - Come chat with us, we have cake
+[Our Google Group](https://groups.google.com/group/cake-php) - community mailing list and forum
 
-[Google Group](https://groups.google.com/group/cake-php) - Community mailing list and forum
+[#cakephp](http://webchat.freenode.net/?channels=#cakephp) on irc.freenode.net - Come chat with us, we have cake.
 
-[GitHub Issues](https://github.com/cakephp/cakephp/issues) - Got issues? Please tell us!
+[Q & A](http://ask.cakephp.org/) - Ask questions here, all questions welcome
+
+[Lighthouse](https://cakephp.lighthouseapp.com/) - Got issues? Please tell us!
 
 [![Bake Status](https://secure.travis-ci.org/cakephp/cakephp.png?branch=master)](http://travis-ci.org/cakephp/cakephp)
 

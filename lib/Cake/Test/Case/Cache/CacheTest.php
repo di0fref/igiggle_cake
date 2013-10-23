@@ -372,13 +372,13 @@ class CacheTest extends CakeTestCase {
  */
 	public function testWriteEmptyValues() {
 		Cache::write('App.falseTest', false);
-		$this->assertFalse(Cache::read('App.falseTest'));
+		$this->assertSame(Cache::read('App.falseTest'), false);
 
 		Cache::write('App.trueTest', true);
-		$this->assertTrue(Cache::read('App.trueTest'));
+		$this->assertSame(Cache::read('App.trueTest'), true);
 
 		Cache::write('App.nullTest', null);
-		$this->assertNull(Cache::read('App.nullTest'));
+		$this->assertSame(Cache::read('App.nullTest'), null);
 
 		Cache::write('App.zeroTest', 0);
 		$this->assertSame(Cache::read('App.zeroTest'), 0);

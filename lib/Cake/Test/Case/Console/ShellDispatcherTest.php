@@ -441,6 +441,7 @@ class ShellDispatcherTest extends CakeTestCase {
 		$Mock = $this->getMock('Shell', array(), array(), 'MockWithMainShell');
 
 		$Mock->expects($this->once())->method('initialize');
+		$Mock->expects($this->once())->method('loadTasks');
 		$Mock->expects($this->once())->method('runCommand')
 			->with(null, array())
 			->will($this->returnValue(true));
@@ -466,6 +467,7 @@ class ShellDispatcherTest extends CakeTestCase {
 		$this->mockObjects[] = $Shell;
 
 		$Shell->expects($this->once())->method('initialize');
+		$Shell->expects($this->once())->method('loadTasks');
 		$Shell->expects($this->once())->method('runCommand')
 			->with('initdb', array('initdb'))
 			->will($this->returnValue(true));
@@ -489,6 +491,7 @@ class ShellDispatcherTest extends CakeTestCase {
 		$Shell = $this->getMock('Object', $methods, array(), 'MockWithMainNotAShell');
 
 		$Shell->expects($this->never())->method('initialize');
+		$Shell->expects($this->never())->method('loadTasks');
 		$Shell->expects($this->once())->method('startup');
 		$Shell->expects($this->once())->method('main')->will($this->returnValue(true));
 		$Dispatcher->TestShell = $Shell;
@@ -521,6 +524,7 @@ class ShellDispatcherTest extends CakeTestCase {
 		$Shell = $this->getMock('Object', $methods, array(&$Dispatcher), 'MockWithoutMainNotAShell');
 
 		$Shell->expects($this->never())->method('initialize');
+		$Shell->expects($this->never())->method('loadTasks');
 		$Shell->expects($this->once())->method('startup');
 		$Shell->expects($this->once())->method('main')->will($this->returnValue(true));
 		$Dispatcher->TestShell = $Shell;

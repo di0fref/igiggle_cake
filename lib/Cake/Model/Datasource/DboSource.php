@@ -771,7 +771,7 @@ class DboSource extends DataSource {
 		if ($this->cacheMethods === false) {
 			return $value;
 		}
-		if (!$this->_methodCacheChange && empty(self::$methodCache)) {
+		if (empty(self::$methodCache)) {
 			self::$methodCache = Cache::read('method_cache', '_cake_core_');
 		}
 		if ($value === null) {
@@ -861,7 +861,7 @@ class DboSource extends DataSource {
  * @return boolean True if the result is valid else false
  */
 	public function hasResult() {
-		return $this->_result instanceof PDOStatement;
+		return is_a($this->_result, 'PDOStatement');
 	}
 
 /**
@@ -2281,7 +2281,6 @@ class DboSource extends DataSource {
 			$fields,
 			$quote,
 			ConnectionManager::getSourceName($this),
-			$model->schemaName,
 			$model->table
 		);
 		$cacheKey = md5(serialize($cacheKey));
@@ -2962,7 +2961,7 @@ class DboSource extends DataSource {
  * @return string
  */
 	public function createSchema($schema, $tableName = null) {
-		if (!$schema instanceof CakeSchema) {
+		if (!is_a($schema, 'CakeSchema')) {
 			trigger_error(__d('cake_dev', 'Invalid schema object'), E_USER_WARNING);
 			return null;
 		}

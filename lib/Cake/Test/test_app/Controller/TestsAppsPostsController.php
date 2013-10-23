@@ -44,7 +44,7 @@ class TestsAppsPostsController extends AppController {
 	}
 
 /**
- * check URL params
+ * check url params
  *
  */
 	public function url_var() {

@@ -647,7 +647,7 @@ class FormHelper extends AppHelper {
  *
  * ### Options:
  *
- * - `escape` boolean - Whether or not to html escape the contents of the error.
+ * - `escape` bool - Whether or not to html escape the contents of the error.
  * - `wrap` mixed - Whether or not the error message should be wrapped in a div. If a
  *   string, will be used as the HTML tag to use.
  * - `class` string - The classname for the error message
@@ -1506,7 +1506,7 @@ class FormHelper extends AppHelper {
 		}
 
 		foreach ($options as $optValue => $optTitle) {
-			$optionsHere = array('value' => $optValue, 'disabled' => false);
+			$optionsHere = array('value' => $optValue);
 
 			if (isset($value) && strval($optValue) === strval($value)) {
 				$optionsHere['checked'] = 'checked';
@@ -1520,9 +1520,7 @@ class FormHelper extends AppHelper {
 			);
 
 			if ($label) {
-				$labelOpts = is_array($label) ? $label : array();
-				$labelOpts += array('for' => $tagName);
-				$optTitle = $this->label($tagName, $optTitle, $labelOpts);
+				$optTitle = $this->label($tagName, $optTitle, is_array($label) ? $label : null);
 			}
 
 			if (is_array($between)) {
@@ -1625,16 +1623,17 @@ class FormHelper extends AppHelper {
  * @link http://book.cakephp.org/2.0/en/core-libraries/helpers/form.html#FormHelper::hidden
  */
 	public function hidden($fieldName, $options = array()) {
-		$options += array('required' => false, 'secure' => true);
+		$secure = true;
 
-		$secure = $options['secure'];
-		unset($options['secure']);
-
+		if (isset($options['secure'])) {
+			$secure = $options['secure'];
+			unset($options['secure']);
+		}
 		$options = $this->_initInputField($fieldName, array_merge(
 			$options, array('secure' => self::SECURE_SKIP)
 		));
 
-		if ($secure === true) {
+		if ($secure && $secure !== self::SECURE_SKIP) {
 			$this->_secure(true, null, '' . $options['value']);
 		}
 
@@ -1721,7 +1720,7 @@ class FormHelper extends AppHelper {
 	}
 
 /**
- * Creates an HTML link, but access the URL using the method you specify (defaults to POST).
+ * Creates an HTML link, but access the url using the method you specify (defaults to POST).
  * Requires javascript to be enabled in browser.
  *
  * This method creates a `<form>` element. So do not use this method inside an existing form.
@@ -1738,7 +1737,7 @@ class FormHelper extends AppHelper {
  * @param string $title The content to be wrapped by <a> tags.
  * @param string|array $url Cake-relative URL or array of URL parameters, or external URL (starts with http://)
  * @param array $options Array of HTML attributes.
- * @param boolean|string $confirmMessage JavaScript confirmation message.
+ * @param bool|string $confirmMessage JavaScript confirmation message.
  * @return string An `<a />` element.
  * @link http://book.cakephp.org/2.0/en/core-libraries/helpers/form.html#FormHelper::postLink
  */
@@ -2011,8 +2010,12 @@ class FormHelper extends AppHelper {
 			$tag = 'selectstart';
 		}
 
-		if ($tag === 'checkboxmultiplestart') {
-			unset($attributes['required']);
+		if ($tag !== 'checkboxmultiplestart' &&
+			!isset($attributes['required']) &&
+			empty($attributes['disabled']) &&
+			$this->_introspectModel($this->model(), 'validates', $this->field())
+		) {
+			$attributes['required'] = true;
 		}
 
 		if (!empty($tag) || isset($template)) {
@@ -2842,19 +2845,13 @@ class FormHelper extends AppHelper {
 		if ($this->tagIsInvalid() !== false) {
 			$result = $this->addClass($result, 'form-error');
 		}
-
-		if (!empty($result['disabled'])) {
+		if (!empty($result['disabled']) || $secure === self::SECURE_SKIP) {
 			return $result;
 		}
-
 		if (!isset($result['required']) &&
 			$this->_introspectModel($this->model(), 'validates', $this->field())
 		) {
 			$result['required'] = true;
-		}
-
-		if ($secure === self::SECURE_SKIP) {
-			return $result;
 		}
 
 		$this->_secure($secure, $this->_secureFieldName($options));

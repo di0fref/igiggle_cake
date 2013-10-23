@@ -201,7 +201,6 @@ class Shell extends Object {
  */
 	public function initialize() {
 		$this->_loadModels();
-		$this->loadTasks();
 	}
 
 /**

@@ -195,7 +195,6 @@ class ShellTest extends CakeTestCase {
 		), App::RESET);
 
 		CakePlugin::load('TestPlugin');
-		$this->Shell->tasks = array('DbConfig' => array('one', 'two'));
 		$this->Shell->uses = array('TestPlugin.TestPluginPost');
 		$this->Shell->initialize();
 
@@ -209,7 +208,6 @@ class ShellTest extends CakeTestCase {
 		$this->assertTrue(isset($this->Shell->Comment));
 		$this->assertInstanceOf('Comment', $this->Shell->Comment);
 		$this->assertEquals('Comment', $this->Shell->modelClass);
-		$this->assertInstanceOf('DbConfigTask', $this->Shell->DbConfig);
 
 		App::build();
 	}
