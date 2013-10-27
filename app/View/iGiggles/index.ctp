@@ -18,11 +18,7 @@ echo "</pre>";
         </td>
         <td style="text-align: right; padding-right: 20px"><a href="#" id="addWidgetLink">Add widget</a>
 			<table border=1><tr>
-			<?php
-			echo "<td>" .$this->Authake->getLogin() ."</td>";
-			echo "<td>" .$this->Authake->Gravatar->get_gravatar($this->Authake->getUserEMail(),27,'','',true) ."</td>";
 
-			?>
 						</tr>
 				</table>
 		</td>

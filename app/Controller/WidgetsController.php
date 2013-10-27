@@ -23,7 +23,7 @@ class WidgetsController extends AppController
 		$result = $this->Widget->find("all",
 			array(
 				"conditions" => array(
-					"user_id" => $this->Authake->getUserId(),
+					"user_id" => 1,
 				),
 				"order" => array(
 					"_column" => "asc",
@@ -65,7 +65,7 @@ class WidgetsController extends AppController
 		$response = new AjaxResponse();
 
 		$widget_save_data = $this->request->data;
-		$widget_save_data["user_id"] = $this->Authake->getUserId();
+		$widget_save_data["user_id"] = 1;
 
 		$this->viewClass = "json";
 		$response->setMessage("Widget added successfully.");

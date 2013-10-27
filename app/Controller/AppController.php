@@ -33,18 +33,5 @@ App::uses('Controller', 'Controller');
  */
 class AppController extends Controller
 {
-	var $helpers = array('Form', 'Time', 'Html', 'Session', 'Js', 'Authake.Authake');
-	var $components = array('Session', 'RequestHandler', 'Authake.Authake');
-	var $counter = 0;
 
-	function beforeFilter()
-	{
-		$this->auth();
-	}
-
-	private function auth()
-	{
-		Configure::write('Authake.useDefaultLayout', true);
-		$this->Authake->beforeFilter($this);
-	}
 }
