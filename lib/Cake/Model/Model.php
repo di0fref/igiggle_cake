@@ -2848,7 +2848,9 @@ class Model extends Object implements CakeEventListener {
 		if ($query === null) {
 			return null;
 		}
-
+echo "<pre>";
+print_r($query);
+echo "</pre>";
 		return $this->_readDataSource($type, $query);
 	}
 

@@ -19,4 +19,10 @@ class Widget extends AppModel
 			'order' => ''
 		)
 	);
+
+	function __construct()
+	{
+		parent::__construct();
+	}
+
 }

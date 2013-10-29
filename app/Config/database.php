@@ -62,23 +62,12 @@
 class DATABASE_CONFIG
 {
 
-	public $authake = array(
-		'datasource' => 'Database/Mysql',
-		'persistent' => false,
-		'host' => 'localhost',
-		'login' => "root", //username for the db
-		'password' => "root", //password for the db
-		'database' => 's6411_igiggle', //or any other where you have imported the authake.sql file
-		'prefix' => "",
-	);
-
-
 	public $default = array(
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'root',
-		'password' => 'root',
+		'password' => '',
 		'database' => 's6411_igiggle',
 		'prefix' => '',
 		'encoding' => 'utf8',

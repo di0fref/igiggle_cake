@@ -13,7 +13,8 @@ class WidgetTest extends CakeTestCase {
  * @var array
  */
 	public $fixtures = array(
-		'app.widget'
+		'app.widget',
+		'app.user'
 	);
 
 /**

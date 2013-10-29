@@ -5,7 +5,7 @@ App::uses('AppController', 'Controller');
  *
  */
 App::uses('AjaxResponse', 'Http');
-
+App::uses('User', 'Model');
 
 class WidgetsController extends AppController
 {
@@ -93,7 +93,7 @@ class WidgetsController extends AppController
 		$this->viewClass = "json";
 		$response = new AjaxResponse();
 		$response->setMessage("Widget removed.");
-		if(!$this->Widget->delete($this->request->data["id"])){
+		if (!$this->Widget->delete($this->request->data["id"])) {
 			$response->setStatus(false);
 			$response->setMessage("Unable to delete Widget.");
 		}
@@ -174,6 +174,54 @@ class WidgetsController extends AppController
 			)
 		);
 		$this->set("data", $result);
+	}
+
+	function add()
+	{
+		if ($this->request->is('post')) {
+			$this->Widget->create();
+			if ($this->Widget->save($this->request->data)) {
+				$this->Session->setFlash(__('The Widget has been saved'));
+				return $this->redirect(array('action' => 'index'));
+			}
+			$this->Session->setFlash(__('The Widget could not be saved. Please, try again.'));
+		}else{
+			$user = new User();
+			$users = $user->find("all", array("fields" => array("username", "id")));
+			$this->set("user_id_options", $users);
+		}
+	}
+
+	function edit($id = null)
+	{
+		$this->Widget->id = $id;
+		if (!$this->Widget->exists()) {
+			throw new NotFoundException(__('Invalid Widget'));
+		}
+		if ($this->request->is('post') || $this->request->is('put')) {
+			if ($this->Widget->save($this->request->data)) {
+				$this->Session->setFlash(__('The Widget has been saved'));
+				return $this->redirect(array('action' => 'index'));
+			}
+			$this->Session->setFlash(__('The user could not be saved. Please, try again.'));
+		} else {
+			$this->request->data = $this->Widget->read(null, $id);
+		}
+	}
+
+	function view($id = null)
+	{
+		$this->Widget->id = $id;
+		if (!$this->Widget->exists()) {
+			throw new NotFoundException(__('Invalid Widget'));
+		}
+		$this->set('widget', $this->Widget->read(null, $id));
+	}
+
+	function index()
+	{
+		$this->Widget->recursive = 0;
+		$this->set('widgets', $this->paginate());
 	}
 
 }
