@@ -1,4 +1,5 @@
 <?php echo $this->Html->css('cake.generic'); ?>
+
 <div class="users form">
 	<?php echo $this->Session->flash('auth'); ?>
 	<?php echo $this->Form->create('User'); ?>

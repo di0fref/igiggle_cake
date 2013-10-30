@@ -10,7 +10,7 @@ class Widget extends AppModel
 	public $virtualFields = array(
 		'nr_of_articles_cond' => 'IFNULL(nr_of_articles, 10)'
 	);
-	public $belongsTo = array(
+	public $belohngsTo = array(
 		'User' => array(
 			'className' => 'User',
 			'foreignKey' => 'user_id',

@@ -1,10 +1,5 @@
 <?php $cakeDescription = "ljn";?>
-<?php
-echo "<pre>";
-print_r($this->Authake->getUserEMail());
-echo "</pre>";
 
-?>
 <table id="search" border=0>
     <tr>
         <td style="width:180px">

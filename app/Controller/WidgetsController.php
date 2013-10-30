@@ -5,7 +5,6 @@ App::uses('AppController', 'Controller');
  *
  */
 App::uses('AjaxResponse', 'Http');
-App::uses('User', 'Model');
 
 class WidgetsController extends AppController
 {
@@ -186,9 +185,9 @@ class WidgetsController extends AppController
 			}
 			$this->Session->setFlash(__('The Widget could not be saved. Please, try again.'));
 		}else{
-			$user = new User();
-			$users = $user->find("all", array("fields" => array("username", "id")));
-			$this->set("user_id_options", $users);
+			//$user = new User();
+			//$users = $user->find("all", array("fields" => array("username", "id")));
+			//$this->set("user_id_options", $users);
 		}
 	}
 

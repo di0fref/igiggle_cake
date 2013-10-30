@@ -12,7 +12,7 @@ class UsersController extends AppController
 	 *
 	 * @var mixed
 	 */
-	//public $scaffold;
+	public $scaffold;
 
 	public function beforeFilter()
 	{
@@ -22,6 +22,7 @@ class UsersController extends AppController
 
 	public function login()
 	{
+		$this->Session->destroy();
 		if ($this->request->is('post')) {
 			if ($this->Auth->login()) {
 				return $this->redirect(AuthComponent::redirectUrl());
